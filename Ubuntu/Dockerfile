@@ -33,5 +33,3 @@ RUN apt-get update \
 ADD install.sh /
 RUN chmod +x /install.sh
 RUN /install.sh
-ADD update.sh /
-RUN chmod +x /update.sh
