@@ -7,3 +7,5 @@ pip3 install ipython
 cd /root/
 wget https://raw.githubusercontent.com/d1al-t0ne/dockerfiles/main/dotfiles/.vimrc
 wget https://raw.githubusercontent.com/d1al-t0ne/dockerfiles/main/dotfiles/update.sh
+wget https://raw.githubusercontent.com/d1al-t0ne/dockerfiles/main/dotfiles/.functions
+source .functions
