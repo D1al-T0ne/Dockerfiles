@@ -11,10 +11,10 @@ function wayback() {
 
 	gau $1 | sort -u | tee -a  waybackdata/wayback.txt 
 	cat waybackdata/wayback.txt | unfurl -u keys >> waybackdata/paramlist.txt
-	cat waybackdata/wayback.txt | grep -P "\w+\.js(\?|$)" | sort -u waybackdata/jsurls.txt
-	cat waybackdata/wayback.txt | grep -P "\w+\.php(\?|$)" | sort -u waybackdata/phpurls.txt
-	cat waybackdata/wayback.txt | grep -P "\w+\.aspx(\?|$)" | sort -u waybackdata/aspxurls.txt
-	cat waybackdata/wayback.txt | grep -P "\w+\.jsp(\?|$)" | sort -u waybackdata/jspurls.txt
+	cat waybackdata/wayback.txt | grep -P "\w+\.js(\?|$)" | sort -u > waybackdata/jsurls.txt
+	cat waybackdata/wayback.txt | grep -P "\w+\.php(\?|$)" | sort -u > waybackdata/phpurls.txt
+	cat waybackdata/wayback.txt | grep -P "\w+\.aspx(\?|$)" | sort -u > waybackdata/aspxurls.txt
+	cat waybackdata/wayback.txt | grep -P "\w+\.jsp(\?|$)" | sort -u > waybackdata/jspurls.txt
 	
 	find waybackdata/ -size 0 -delete
 }
