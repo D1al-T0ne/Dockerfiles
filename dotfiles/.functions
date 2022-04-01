@@ -1,11 +1,5 @@
 #!/usr/bin/env bash
 
-function get_js() {
-	mkdir jslinks
-
-	cat $1 | subjs >> jslinks/jslinks.txt
-}
-
 function wayback() {
 	mkdir waybackdata
 
