@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 function get_js() {
-	mkkdir jslinks
+	mkdir jslinks
 
 	cat $1 | subjs >> jslinks/jslinks.txt
 }
