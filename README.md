@@ -17,12 +17,6 @@ An Ubuntu Docker instance with the latest version and utility tools pre-installe
 An Ubuntu Docker instance with the latest version, utility tools pre-installed and<br>
 a collection of tools used in the discovery processes.
 
-```bash
-function discovery(){
-  dirname=${PWD##*/}
-  docker run -v `pwd`:/${dirname} -w /${dirname} -it --rm discovery
-}
-```
 ## Environment
 The Base Teriminal and Ubuntu images here have been tested:
 - Docker Desktop on Mac (Intel): Version 3.6.0, Engine 20.10.8
