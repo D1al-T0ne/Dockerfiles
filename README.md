@@ -14,8 +14,8 @@ docker run -it --rm --entrypoint "/bin/bash" ubuntu:latest
 An Ubuntu Docker instance with the latest version and utility tools pre-installed.<br>
 
 <h3>Discovery</h3>
-An Ubuntu Docker instance with the latest version, utility tools pre-installed and<br>
-a collection of tools used in the discovery processes.
+An Ubuntu Docker instance with the latest version, utility tools pre-installed along with
+a collection of community tools used in the discovery processes.
 
 ## Environment
 The Base Teriminal and Ubuntu images here have been tested:
