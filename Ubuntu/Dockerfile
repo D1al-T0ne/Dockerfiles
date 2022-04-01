@@ -15,7 +15,6 @@ RUN apt-get update \
 	&& apt-get install -y --no-install-recommends --fix-missing \
 	curl \
 	chromium-browser \
-	default-jdk \
 	dnsutils \
 	findutils \
 	git \
