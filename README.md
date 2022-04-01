@@ -12,14 +12,7 @@ docker run -it --rm --entrypoint "/bin/bash" ubuntu:latest
 
 <h3>Ubuntu</h3>
 An Ubuntu Docker instance with the latest version and utility tools pre-installed.<br>
-Use a function to quickly spin this instance up, with persistant storage.
 
-```bash
-function ubuntu () {
-	dirname=${PWD##*/}
-	docker run -v `pwd`:/${dirname} -w /${dirname} -it --rm ubuntu
-}
-```
 <h3>Discovery</h3>
 An Ubuntu Docker instance with the latest version, utility tools pre-installed and<br>
 a collection of tools used in the discovery processes.
