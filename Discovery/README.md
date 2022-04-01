@@ -1,4 +1,5 @@
 ## Discovery
+An Ubuntu Docker instance with the latest version, utility tools pre-installed along with a collection of community tools used in the discovery processes.
 
 ## Usage
 1. You need [Docker](https://docs.docker.com/get-docker/) installed.<br>
