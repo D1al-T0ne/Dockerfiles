@@ -6,7 +6,7 @@ An Ubuntu Docker instance with the latest version, utility tools pre-installed a
 2. Copy the Dockerfile and install.sh script to a directory of your choice.
 3. Build the docker container.<br>
 ```bash
-docker buid -t ubuntu .
+docker buid -t discovery .
 ```
 4. After building the image, you can run it directly from the command-line:
 ```bash
@@ -29,7 +29,6 @@ function discovery(){
 |gau|https://github.com/lc/gau|
 |kiterunner|https://github.com/assetnote/kiterunner|
 |linkfinder|https://github.com/GerbenJavado/LinkFinder|
-|paramspider|https://github.com/devanshbatham/ParamSpider|
 |subjs|https://github.com/lc/subjs|
 |unfurl|https://github.com/tomnomnom/unfurl|
 
